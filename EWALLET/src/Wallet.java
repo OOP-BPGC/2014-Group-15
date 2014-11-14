@@ -10,9 +10,9 @@ public class Wallet {
 		this.balance = balance;
 	}
 	public double getBalance() {
-		// TODO Auto-generated method stub
 		return balance;
 	}
+
 //	public int[] getGiftcards() {
 //		return giftcards;
 //	}
