@@ -19,4 +19,11 @@ Assumptions- The user gives the expected inputs.
 Console based programming has been completed and it is in working condition. For the Web Application few JSP files have been created. Additional feature of Gift Cards can be implemented later.
 
 All classes are complete
-The test cases will be submitted by tonight
+
+Update on 11:30 PM 19/11/2014
+The Test cases :
+	In the TestLogin:
+			It first tests the forgot password method
+			then the login method
+			then the signup method
+
