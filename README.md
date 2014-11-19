@@ -1,31 +1,22 @@
-grp15ewall
-Note: Submission-3(Code Review) has been done. There has been a delay due to miscommunication.
+Project Name: e-Wallet Project Authors: Prajwal Sagar Sambali Giridhar Naidu Aditya Rungta Aannesha Satpati Akhil Balaji Mihika Dave Abhinav Gupta
 
-Project Name: e-Wallet
-Project Authors: 
-	Prajwal Sagar 
-	Sambali Giridhar Naidu
-	Aditya Rungta
-	Aannesha Satpati
-	Akhil Balaji 
-	Mihika Dave 
-	Abhinav Gupta
-	
-Database (mySQL) with necessary tables should be previously created. Sign Up method inserts new entries in the database.
+Setup- 	Build path for the mysql driver in the lib folder
+		Provide the database username(DB_user) and password(DB_Pass) in the DBconf.java
+		Run Init.java (as java application) once to create the required database and the tables.
+		Init.java creates a virtualBank user with username: virtualbank and password:virtualadmin
 
-Database name:EWALLET
-USER: root
-password: abhi1204
+RUN:
+Run the Driver.java class as java application
 
-Console based programming has been completed and it is in working condition.
-For the Web Application few JSP files have been created.
-Additional feature of Gift Cards can be implemented later.
+We have started working on the jsp files(also included). So the project is a Java Web Project.
 
-Working Classes:
-driver, login, user, customer, offer, seller
+Assumptions- The user gives the expected inputs.
+			 If a username is given as Receiver for  makePayment(), moneyTransfer(), recharge(), the username should exist
+			 Each seller can have only 1 offer which is applicable on all the items.
+			 When virtual bank logsIn it can recharge anybody's account with any amount.
+			 User does not logIn if he is not registered.
 
-Incomplete Classes:
-Virtual Bank, Gift Card
-  
+Console based programming has been completed and it is in working condition. For the Web Application few JSP files have been created. Additional feature of Gift Cards can be implemented later.
 
-==========
+All classes are complete
+The test cases will be submitted by tonight
