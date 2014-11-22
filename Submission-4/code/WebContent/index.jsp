@@ -20,7 +20,6 @@ body {
   <li><a href="index.jsp"><font color= "#666666">Login</font></a></li>
   <li><a href="reg.jsp">Register</a></li>
   
-  
 </ul>
 </div>
 <!--Login Box-->

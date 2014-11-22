@@ -16,7 +16,7 @@ import javax.servlet.http.HttpSession;
 /**
  * Servlet implementation class RechargeServlet
  */
-@WebServlet("/RechargeServlet")
+@WebServlet("/recharge")
 public class RechargeServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -50,9 +50,9 @@ public class RechargeServlet extends HttpServlet {
 	}
 		try{
 		if(rp.recharge(name,amount))
-			response.sendRedirect("RechargeSuccess.jsp");
+			response.sendRedirect("rechargeSuccess.jsp");
 		else
-			response.sendRedirect("RechargeFailure.jsp");
+			response.sendRedirect("rechargeFailure.jsp");
 		
 		}catch(Exception e){
 			e.printStackTrace();
