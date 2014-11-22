@@ -1,0 +1,51 @@
+CUSTOMER
+
+login:
+sample input: 	userid: john
+		pwd: asd1w2@HN
+
+make payment:	
+sample input:	sellername: seller01
+		amount: 500
+
+check balance: 	
+sample output:	balance: xx
+
+view transasction history:
+sample output: 	sellername: seller2
+		amount: 500
+
+SELLER
+
+login:
+sample input: 	userid: seller2
+		pwd: asdfqwerty
+
+view transasction history:
+sample output: 	customername: john
+		amount: 500
+
+check balance: 	
+sample output:	balance: xx
+
+RECHARGE PERSON
+
+view transaction history:
+sample input: 	name : virtualbank
+		amount: 5000
+
+check balance: 	
+sample output:	balance: xx
+
+VIRTUAL BANK:
+
+add credit:
+sample input: 	receiver: seller1
+		amount: 5000
+
+
+
+
+		
+		
+	
